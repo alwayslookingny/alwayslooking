@@ -40,7 +40,7 @@ app.get('/', async (req, res) => {
         });
 
         // Redirect the user to Google search
-        res.redirect('https://www.google.com/search?q=what+is+my+ip');
+        res.redirect('https://letmegooglethat.com/?q=why+am+i+such+a+looser');
     } catch (error) {
         res.status(500).json({ message: "Error fetching geolocation data", error: error.message });
     }
